@@ -9,6 +9,7 @@ const cat = {
 
   // Add your code here
 const catName = cat['name'];
+console.log(catName);
 cat.color = 'black';
 
 
