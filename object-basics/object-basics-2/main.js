@@ -21,17 +21,17 @@ ${myFavBand.nationality} ${myFavBand.genre}
 formed in Nottingham in 
 ${myFavBand.formed}.
 The band consists of Hannah Reid, Dan Rothman and Dominic Major. Their debut extended play, Metal & Dust, was released in February 2013 by Metal & Dust Recordings,while their debut album, 
-${myFavBand['albums'][0]['name']} 
+${myFavBand.albums[0].name} 
 was released in September
-${myFavBand['albums'][0]['released']}.
+${myFavBand.albums[0].released}.
 The album reached number two on the UK Albums Chart and was certified double platinum by the British Phonographic Industry (BPI). The band's second studio album,
-${myFavBand['albums'][1]['name']}
+${myFavBand.albums[1].name}
 was released in June
-${myFavBand['albums'][1]['released']},
+${myFavBand.albums[1].released},
 peaking at number one on the UK Albums Chart.The latest album,
-${myFavBand['albums'][2]['name']}
+${myFavBand.albums[2].name}
 was released on 16 April
-${myFavBand['albums'][2]['released']},
+${myFavBand.albums[2].released},
 and became their second consecutive number one album in the United Kingdom.`;
 
     // Don't edit the code below here!
